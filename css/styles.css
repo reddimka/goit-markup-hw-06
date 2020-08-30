@@ -639,12 +639,12 @@ body {
   position: absolute;
   top: 50%;
   left: 50%;
-
   transform: translate(-50%, -50%);
   display: flex;
   box-sizing: border-box;
   flex-direction: column;
-
+  width: 528px;
+  height: 581px;
   padding: 40px;
   background-color: #ffffff;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
@@ -673,7 +673,7 @@ body {
 }
 .close-btn-svg > use {
   align-items: center;
-  transform: translate(9px, 9px);
+  transform: translate(10px, 10px);
 }
 .modal-form-title {
   margin-bottom: 30px;
@@ -910,10 +910,6 @@ body {
     0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
-.close-btn-svg > use {
-  position: absolute;
-  transform: translate(6px, 6px);
-}
 /*background-color: #ffff;
 box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
   0px 2px 1px rgba(0, 0, 0, 0.2);
