@@ -394,6 +394,7 @@ body {
 }
 /*подвал*/
 .footer {
+  display: flex;
   background-color: #2f303a;
   padding-bottom: 60px;
   padding-top: 60px;
