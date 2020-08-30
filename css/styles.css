@@ -846,7 +846,7 @@ body {
 
 .modal-form-checkbox:checked + .modal-form-checkbox-checked::before {
   content: "";
-  background-image: url(/imgages/modal/iconcheck.svg);
+  background-image: url(./imgages/modal/iconcheck.svg);
   height: 15px;
   width: 16px;
   border: none;
